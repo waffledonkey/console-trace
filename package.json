@@ -1,0 +1,38 @@
+{
+  "name": "console-trace",
+  "version": "1.0.0",
+  "description": "Monkey-patched console with trace",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waffledonkey/console-trace.git"
+  },
+  "keywords": [
+    "console",
+    "color",
+    "logger",
+    "trace"
+  ],
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "package.json",
+    "index.js",
+    "test.js"
+  ],
+  "author": "Kyle Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waffledonkey/console-trace/issues"
+  },
+  "homepage": "https://github.com/waffledonkey/console-trace#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
